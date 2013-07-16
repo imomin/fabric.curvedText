@@ -1,4 +1,5 @@
 /***** Required : http://fabricjs.com *****/
+//https://github.com/Skritz/fabric.curvedText
 var CurvedText = (function() {
 
     /**
@@ -131,7 +132,7 @@ var CurvedText = (function() {
     */
     CurvedText.prototype._setFontStyles = function() {
       for ( var i=0; i<this.group.size(); i++ ){
-        this.group.item(i).setFontsize( this.opts.fontSize );
+        this.group.item(i).setFontSize( this.opts.fontSize );
         this.group.item(i).fontWeight = this.opts.fontWeight ;
       }
     };
